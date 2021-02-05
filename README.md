@@ -1,5 +1,5 @@
-# bigbrain_PLOS_2020
-Scripts used for BigBrain cortical layers paper:
+# Code for BigBrain PLOS 2020 layers paper
+Code and scripts used for BigBrain cortical layers paper:
 
 Wagstyl, K., Larocque, S., Cucurull, G., Lepage, C., Cohen, J. P., Bludau, S., Palomero-Gallagher, N., Lewis, L. B., Funck, T., Spitzer, H., Dickscheid, T., Fletcher, P. C., Romero, A., Zilles, K., Amunts, K., Bengio, Y., & Evans, A. C. (2020). 
 
