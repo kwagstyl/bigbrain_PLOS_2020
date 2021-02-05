@@ -1,0 +1,21 @@
+#smoothing volumes. effective fwhm 0.163mm
+#above 100um as single volumes, below as blocks. for 20 micron smooth repeat the 40 micron step.
+
+res="100 200 300 400 1000"
+vol_dir="/data1/users/kwagstyl/bigbrain/volumes/"
+for r in $res
+do
+geo_smooth 0.0004 6 "$vol_dir"full8_"$r"um.mnc "$vol_dir"full8_"$r"um_geo.mnc
+done
+
+
+vol_dir="/data1/users/kwagstyl/bigbrain/blocks40/"
+
+cd "$vol_dir"
+for f in block*.mnc;
+do
+
+geofile=`echo "${f%????}"_geo.mnc`
+geo_smooth 0.0004 6 "$vol_dir" 
+
+done

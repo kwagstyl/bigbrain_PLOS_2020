@@ -1,0 +1,4 @@
+bash Make_training_data_from_histo_sixlayers.sh
+
+bash Make_training_data_at_multiple_resolutions.sh
+

@@ -19,4 +19,10 @@ Raw BigBrain data and derivatives can be downloaded from:
 ftp://bigbrain.loris.ca/BigBrainRelease.2015/
 
 
-
+scripts/ BigBrain and mesh processing scripts,
+scripts/notebooks: analyses used to generate figures and results for paper
+scripts/histology_2d 2D histology processing scripts used to generate training data from manually annotated 2D histological sections
+scripts/surfaces mesh operations pre and post layer segmentation
+scripts/volume_processing BigBrain volume operations - smoothing volumes and extracting intensity profiles
+cortical_layers/ contains deep learning profile code. Another warning is that this is dependent on Theano and lasagne, packages that are no longer maintained.
+test_train_full.sh is the main script used to run the training and testing
